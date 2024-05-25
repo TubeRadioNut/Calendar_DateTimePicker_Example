@@ -1,0 +1,15 @@
+﻿<Window x:Class="Calendar_DateTimePicker_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calendar_DateTimePicker_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Calendar x:Name="calDate" Canvas.Left="32" Canvas.Top="28"/>
+        <DatePicker x:Name="dtpDate" Canvas.Left="247" Canvas.Top="28"/>
+        <Button x:Name="btnDispayDate" Content="Display Date" Canvas.Left="262" Canvas.Top="264" Click="btnDispayDate_Click"/>
+
+    </Canvas>
+</Window>
